@@ -8,6 +8,10 @@ const StyleInput = styled.input`
   border: none;
   border-radius: 10px;
   margin-bottom: 20px;
+
+  @media (max-width: 1040px) {
+    width: 80vw;
+  }
 `
 
 interface InputProps {

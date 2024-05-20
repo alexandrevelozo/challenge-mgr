@@ -31,6 +31,10 @@ export const Legend = styled.div`
   span {
     color: var(--light-blue-color);
   }
+
+  @media (max-width: 1040px) {
+    width: 80vw;
+  }
 `
 
 export const Card = styled(motion.div)`

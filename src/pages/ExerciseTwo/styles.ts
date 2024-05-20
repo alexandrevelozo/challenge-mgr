@@ -37,6 +37,10 @@ export const Legend = styled.div`
   }
 
   width: 30vw;
+
+  @media (max-width: 1040px) {
+    width: 80vw;
+  }
 `
 
 export const Result = styled.div`
@@ -47,25 +51,25 @@ export const Result = styled.div`
 
   width: 30vw;
   max-height: 50%;
+
+  @media (max-width: 1040px) {
+    width: 80vw;
+  }
 `
 
 export const Letters = styled(motion.div)`
-  div {
-    ul {
-      display: flex;
-      flex-direction: row;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 `
 export const Numbers = styled(motion.div)`
-  div {
-    ul {
-      display: flex;
-      flex-direction: row;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 `

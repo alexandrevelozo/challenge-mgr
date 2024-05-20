@@ -7,6 +7,17 @@ const SidebarContainer = styled.div`
   position: fixed;
   top: 20%;
   left: 40px;
+
+  @media (max-width: 1040px) {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    left: 0;
+    top: 90%;
+
+    z-index: 9999;
+  }
 `
 
 const MenuItem = styled(NavLink)`
@@ -23,6 +34,17 @@ const MenuItem = styled(NavLink)`
 
   &:hover {
     background-color: #555;
+  }
+
+  @media (max-width: 1040px) {
+    border-left: none;
+    border-bottom: 3px solid #555;
+    text-align: center;
+
+    &.active {
+      border-left: none;
+      border-bottom: 3px solid var(--orange-color);
+    }
   }
 `
 

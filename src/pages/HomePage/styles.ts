@@ -20,6 +20,10 @@ export const Wrapper = styled.div`
   gap: 3rem;
 
   width: 100%;
+
+  @media (max-width: 1040px) {
+    width: 80%;
+  }
 `
 
 export const Box = styled(motion.div)`
@@ -64,4 +68,8 @@ export const Image = styled(motion.img)`
   object-fit: cover;
 
   box-shadow: 0 0 20px var(--light-blue-color);
+
+  @media (max-width: 1040px) {
+    display: none;
+  }
 `

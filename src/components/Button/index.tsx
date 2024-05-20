@@ -13,6 +13,10 @@ const StyleButton = styled.button`
   &:hover {
     background-color: #ff6a00;
   }
+
+  @media (max-width: 1040px) {
+    width: 80vw;
+  }
 `
 
 interface ButtonProps {

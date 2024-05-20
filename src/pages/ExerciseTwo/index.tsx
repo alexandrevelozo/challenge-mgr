@@ -63,6 +63,7 @@ const ExerciseTwo: React.FC = () => {
           {error && <p style={{ color: 'red', marginTop: '1rem' }}>{error}</p>}
           {active && (
             <Link
+              className="link"
               style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -99,7 +100,7 @@ const ExerciseTwo: React.FC = () => {
           </Letters>
 
           <Numbers
-            variants={fadeIn('left', 0.4)}
+            variants={fadeIn('right', 0.4)}
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
