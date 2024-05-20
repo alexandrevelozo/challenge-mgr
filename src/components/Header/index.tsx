@@ -6,15 +6,23 @@ import IconGithub from '../../assets/icons/github-icon.svg'
 export default function Header() {
   return (
     <Container>
-      <img src={LogoMgr} alt="Logo MGR" />
       <img
         style={{
-          width: '50px',
-          height: '50px',
+          cursor: 'pointer',
         }}
-        src={IconGithub}
-        alt=""
+        src={LogoMgr}
+        alt="Logo MGR"
       />
+      <a href="https://github.com/alexandrevelozo/challenge-mgr" target="blank">
+        <img
+          style={{
+            width: '50px',
+            height: '50px',
+          }}
+          src={IconGithub}
+          alt=""
+        />
+      </a>
     </Container>
   )
 }
