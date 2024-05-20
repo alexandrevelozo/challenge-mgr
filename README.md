@@ -40,13 +40,13 @@
 
 <span>Challenge Processo de Formação MGR</span>
 
-<img src=".github/img1.png" alt="flex" height="700" width="1460" />
+<img src=".github/img1.png" alt="flex" height="500" width="1460" />
   <br/>&nbsp;
 
-<img src=".github/img2.png" alt="flex" height="700" width="1460" />
+<img src=".github/img2.png" alt="flex" height="500" width="1460" />
   <br/>&nbsp;
 
-<img src=".github/img3.png" alt="flex" height="700" width="1460" />
+<img src=".github/img3.png" alt="flex" height="500" width="1460" />
   <br/>&nbsp;
 
 <h2 id="techs"> Technologies </h2>
