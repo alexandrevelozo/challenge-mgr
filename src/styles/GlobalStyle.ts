@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --orange-color: #ff8a00;
+    --orange-color: #FF8A00;
     --blue-color: #0f1a4b;
-    --light-blue-color: #1ba8e2;
+    --light-blue-color:  #1ba8e2;
     --text-color: #1e1e1e;
   }
 

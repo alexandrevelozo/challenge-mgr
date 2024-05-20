@@ -24,14 +24,14 @@ export const Wrapper = styled.div`
 
 export const Box = styled(motion.div)`
   h1 {
-    color: #ff8a00;
+    color: var(--orange-color);
     font-size: 3.4rem;
     font-weight: bold;
     line-height: 3.2rem;
     margin-bottom: 1rem;
 
     span {
-      color: #1ba8e2;
+      color: var(--light-blue-color);
     }
   }
   p {
@@ -44,7 +44,7 @@ export const Box = styled(motion.div)`
     padding: 1rem 2rem;
     margin-top: 3rem;
     border-radius: 1rem;
-    background-color: #1ba8e2;
+    background-color: var(--light-blue-color);
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -63,5 +63,5 @@ export const Image = styled(motion.img)`
   border-radius: 50%;
   object-fit: cover;
 
-  box-shadow: 0 0 20px #1ba8e2;
+  box-shadow: 0 0 20px var(--light-blue-color);
 `

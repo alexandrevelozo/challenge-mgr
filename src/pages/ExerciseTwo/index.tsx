@@ -1,12 +1,14 @@
 import { FormEvent, useState } from 'react'
-import { separateData } from '../../utils/separate'
-
-import { Container, Wrapper, Legend, Result, Letters, Numbers } from './styles'
-import Input from '../../components/Input'
-import Button from '../../components/Button'
 import { Link } from 'react-router-dom'
 import { GoArrowRight } from 'react-icons/go'
+
+import { separateData } from '../../utils/separate'
 import { fadeIn } from '../../utils/variants'
+
+import Input from '../../components/Input'
+import Button from '../../components/Button'
+
+import { Container, Wrapper, Legend, Result, Letters, Numbers } from './styles'
 
 const ExerciseTwo: React.FC = () => {
   const [inputValue, setInputValue] = useState<string>('')
@@ -66,7 +68,7 @@ const ExerciseTwo: React.FC = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 gap: '5px',
-                color: '#FF8A00',
+                color: 'var(--orange-color)',
                 textDecoration: 'none',
                 position: 'absolute',
                 right: '-50%',

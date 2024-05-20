@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion'
 import { styled } from 'styled-components'
+import { motion } from 'framer-motion'
 
 export const Container = styled.div`
   display: flex;
@@ -29,11 +29,11 @@ export const Wrapper = styled.div`
 
 export const Legend = styled.div`
   h2 {
-    color: #ff8a00;
+    color: var(--orange-color);
   }
 
   span {
-    color: #1ba8e2;
+    color: var(--light-blue-color);
   }
 
   width: 30vw;

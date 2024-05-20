@@ -1,5 +1,5 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
+
 import styled from 'styled-components'
 
 const SidebarContainer = styled.div`
@@ -18,7 +18,7 @@ const MenuItem = styled(NavLink)`
   border-left: 3px solid #555;
 
   &.active {
-    border-left: 3px solid #ff8a00;
+    border-left: 3px solid var(--orange-color);
   }
 
   &:hover {

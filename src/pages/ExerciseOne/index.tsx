@@ -113,7 +113,7 @@ const ExerciseOne: React.FC = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 gap: '5px',
-                color: '#FF8A00',
+                color: 'var(--orange-color)',
                 textDecoration: 'none',
                 position: 'absolute',
                 right: '-50%',

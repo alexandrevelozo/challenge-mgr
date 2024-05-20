@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion'
 import { styled } from 'styled-components'
+import { motion } from 'framer-motion'
 
 export const Container = styled.div`
   display: flex;
@@ -23,13 +23,13 @@ export const Legend = styled.div`
   width: 30vw;
 
   h2 {
-    color: #ff8a00;
+    color: var(--orange-color);
     font-weight: bold;
     margin-bottom: 1rem;
   }
 
   span {
-    color: #1ba8e2;
+    color: var(--light-blue-color);
   }
 `
 
@@ -51,7 +51,7 @@ export const Card = styled(motion.div)`
 
   width: 285px;
   height: 480px;
-  background: linear-gradient(135deg, #0f1a4b 0%, #1a274e 50%, #000428 100%);
+  background: linear-gradient(135deg, var(--blue-color) 0%, #1a274e 50%, #000428 100%);
 
   h2 {
     color: #fff;
